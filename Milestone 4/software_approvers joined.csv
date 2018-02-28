@@ -1,0 +1,87 @@
+"id","approver_id","software_id","id","first_name","last_name","id","name","acronym"
+1,21,1,21,"Chester","Field",1,"Operating Map of Gastropathy","OMG"
+2,23,2,23,"Amanda","Huginkiss",2,"Limited Operating Liability","LOL"
+3,24,3,24,"Les","Wynan",3,"Total Mastering of Incisions","TMI"
+4,25,4,25,"Tara","Dactyl",4,"Fixed Orthodontics Medical Operations","FOMO"
+5,26,5,26,"Claire","Voyant",5,"List of Transactions and Redactions","LOTR"
+6,27,6,27,"Will","Tickelu",6,"Northern Ozone & Ocean Biome","NOOB"
+7,28,7,28,"Polly","Graff",7,"Alternative Sewage System",
+8,29,8,29,"Stan","Dupp",8,"Relational Observation System Limited","ROFL"
+9,30,9,30,"Gene","Poole",9,"Fast Family Finder",
+10,31,10,31,"Neil","Down",10,"Sustainable Xeriscaping","SuX"
+11,32,11,32,"Brock","Lee",11,"World Terrain & Forestry","WTF"
+12,33,12,33,"Dot","Matricks",12,"Web Utility Table","WUT"
+13,34,13,34,"Goldie","Locke",13,"Data & Utility Heuristics","DUH"
+14,35,14,35,"Ally","Katz",14,"Observation (version 1)","OB1"
+15,36,15,36,"Leah","Tarde",15,"National Ozone Observatory Bot","NOOB"
+16,37,16,37,"Chris","Bacon",16,"Heart Ultrasound Heatmaps","HUH"
+17,38,17,38,"Sue","Flay",17,"Free MySQL Logger","FML"
+18,39,18,39,"Derry","Yare",18,"Heart, Abdomen, and Head Assessor","HAHA"
+19,40,19,40,"Krystal","Ball",19,"Waste Electronic & Wireless Equipmen","WEWE"
+20,41,20,41,"Honey","Potts",20,"Biosphere Air and Gas Interpreter",
+21,44,23,44,"Filet","Minyon",23,"Storm Water Management",
+25,49,28,49,"Justin","Case",28,"Download Urgent Medical Backups","DUMB"
+23,47,26,47,"Paige","Turner",26,"Picture Archive and Communication System","PACS"
+22,78,24,78,"Robyn","Banks",24,"Planetary Environmental Reference System","PERS"
+26,50,29,50,"Crystal","Ball",29,"Pharmaceutical Information Program","PIP"
+24,48,27,48,"Jed","Knight",27,"Radiology Information System","RIS"
+27,51,30,51,"Al","Dente",30,"Remote Health Checker",
+28,51,31,51,"Al","Dente",31,"Remote Stroke Checker",
+29,53,32,53,"Biff","Wellington",32,"Chronic Disease Management",
+30,54,33,54,"Art","Dekko",33,"Ambulance Schedule System",
+31,55,34,55,"Clay","Potts",34,"Care Manager",
+32,56,35,56,"Al","Falfa",35,"Lab Information System","LIS"
+33,57,36,57,"Frank","Furter",36,"Patient Admitter Tool","PAT"
+34,58,37,58,"Harry","Beard",37,"Spillage Locator Tool",
+35,59,38,59,"Anna","Conda",38,"Environmental Assessor Tool",
+36,60,39,60,"Justin","Thyme",39,"Statistical Analysis System","SAS"
+37,61,40,61,"Ollie","Gark",40,"Statistical Package for Social Sciences","SPSS"
+38,62,41,62,"Pete","Moss",41,"Cisco WebEx",
+39,63,42,63,"Rusty","Foord",42,"Homecare System",
+40,64,43,64,"Tom","Foolery",43,"Electronic Medical Record (Viewer)","EMR"
+41,65,54,65,"Warren","Peace",54,"eHealthChart",
+42,66,55,66,"Linda","Hand",55,"Environmental Home Manager",
+43,67,21,67,"Seymore","Butts",21,"Original Record of Landscape and Yard","ORLY"
+44,68,56,68,"Lotta","Noyes",56,"Clinical Data Repository","CDR"
+45,69,57,69,"Barb","Wyre",57,"Netcare Occupation & Observation Base System","NOOBS"
+46,29,8,29,"Stan","Dupp",8,"Relational Observation System Limited","ROFL"
+47,71,58,71,"Bunsen","Berner",58,"Find a Doctor","FAD"
+48,72,22,72,"Bud","Light",22,"Selected Analytical Methods","SAM"
+49,25,4,25,"Tara","Dactyl",4,"Fixed Orthodontics Medical Operations","FOMO"
+50,74,59,74,"Pea ","Pu",59,"Drug Profile Viewer","DPV"
+51,75,60,75,"Ida","Claire",60,"Abdomen Tissue and Analysis Tool","AT-AT"
+52,76,61,76,"Ginger ","Vitus",61,"Provider Coverage Viewer","PCV"
+53,77,62,77,"Jack","Uzzi",62,"Transcription Magic Interpreter","TMI"
+54,78,24,78,"Robyn","Banks",24,"Planetary Environmental Reference System","PERS"
+55,79,63,79,"Mason","Jarr",63,"PharmaCare",
+56,80,64,80,"Ty","Kuhn",64,"Provider Registry System","PRS"
+57,81,65,81,"Wazziz","Naime",65,"Electronic Lab System Interpolator","ELSI"
+58,82,66,82,"Rod","Curtains",66,"myeHealth (For British Columbia)",
+59,64,43,64,"Tom","Foolery",43,"Electronic Medical Record (Viewer)","EMR"
+60,84,67,84,"Kayne","Kun",67,"eReferral",
+61,85,68,85,"Rocky","Rhodes",68,"myeHealth (For Alberta, Saskatchewan, Manitoba)",
+62,86,69,86,"Sandy","Beech",69,"Cleaning Product Analyzer",
+63,87,70,87,"Sue","Vlaki",70,"Greenhouse Gas Analyzer",
+64,88,71,88,"Alan","Rench",71,"Pollution Alerts Datamart","PAD"
+65,54,33,54,"Art","Dekko",33,"Ambulance Schedule System",
+66,90,73,90,"Anne","Thrax",73,"Water and Land Data Observer","WALDO"
+67,91,74,91,"Annita","Job",74,"Waster Observation System",
+68,92,75,92,"Art","Major",75,"myeHealth (For Ontario)",
+69,93,76,93,"Tess","Tamoni",76,"myeHealth (For Quebec)",
+70,94,77,94,"Al","Pacca",77,"myeHealth (For Yukon, Northwest Territories, Nunavut)",
+71,95,78,95,"Art","Choake",78,"Weather Analyzer Software System Unix Platform","WASSUP"
+72,96,79,96,"Benny","Fitz",79,"Weather and Ozone Observation Knowledge Emulator Enterprise Edition","WOOKEEE"
+73,97,80,97,"Anna","Nimmity",80,"Microstrategy",
+74,100,83,100,"Mike","Raffone ",83,"myeHealth (For New Brunswick, Prince Edward Island, Nova Scotia, Newfoundland and Labrador)",
+75,101,84,101,"Sonny","Day",84,"Clinical Admission Manager",
+76,102,85,102,"Wil","Doolittle",85,"Ambulance Supply System",
+77,103,86,103,"Douglas","Furr",86,"TeleCare",
+78,104,87,104,"Gladys","Dunn",87,"Surgical Information System","SIS"
+79,46,25,46,"Dyl","Pickel",25,"Snowmed Analyzer System Extended Edition","SASEE"
+80,47,26,47,"Paige","Turner",26,"Picture Archive and Communication System","PACS"
+81,36,6,36,"Leah","Tarde",6,"Northern Ozone & Ocean Biome","NOOB"
+82,75,1,75,"Ida","Claire",1,"Operating Map of Gastropathy","OMG"
+83,103,30,103,"Douglas","Furr",30,"Remote Health Checker",
+84,103,31,103,"Douglas","Furr",31,"Remote Stroke Checker",
+85,50,59,50,"Crystal","Ball",59,"Drug Profile Viewer","DPV"
+86,51,86,51,"Al","Dente",86,"TeleCare",
