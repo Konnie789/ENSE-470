@@ -28,6 +28,9 @@ Then visit `http://localhost:3000` in your browser
 ## Contributing
 
 New data models go in the `models` folder using Sequelize syntax
+
 Assets go in the `public` folder
+
 Endpoints are defined in the `routes` folder
+
 Views are layed out in the `views` folder
