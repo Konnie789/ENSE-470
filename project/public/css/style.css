@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import './spinner.css';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  border-top: 4px solid #33b5e5;
+}
+
+.card-footer {
+  border-top: 0;
+}

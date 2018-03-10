@@ -3,11 +3,11 @@ var router = express.Router()
 
 const models = require('../models')
 
-/* GET home page. */
 router.get('/software', function (req, res, next) {
   models.Software.findAll({
     include: [models.Approvers]
-  }).then(function (software) {
+  }).then(software => {
+    software.map(soft => soft.toJSON())
     res.send(software)
   })
 })
@@ -15,7 +15,9 @@ router.get('/software', function (req, res, next) {
 router.get('/approvers', function (req, res, next) {
   models.Approvers.findAll({
     include: [models.Software]
-  }).then(function (approvers) {
+  }).then(approvers => {
+    // map entity to json
+    approvers.map(app => app.toJSON())
     res.send(approvers)
   })
 })
