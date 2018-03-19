@@ -5,9 +5,13 @@ var logger = require('morgan')
 var cookieParser = require('cookie-parser')
 var bodyParser = require('body-parser')
 var dotenv = require('dotenv').config()
+const session = require('express-session')
+const passport = require('passport')
+const flash = require('connect-flash')
 
 var index = require('./routes/index')
 var pages = require('./routes/pages')
+const users = require('./routes/users')
 
 var app = express()
 
@@ -23,8 +27,21 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cookieParser())
 app.use(express.static(path.join(__dirname, 'public')))
 
+app.use(session({
+  secret: process.env['SESSION_SECRET'],
+  proxy: true,
+  resave: true,
+  saveUninitialized: true
+})) // session secret
+app.use(passport.initialize())
+app.use(passport.session())
+app.use(flash())
+
+require('./bin/passport')(passport)
+
 app.use('/api', index)
 app.use('/', pages)
+app.use('/', users)
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

@@ -12,3 +12,7 @@ body {
 .card-footer {
   border-top: 0;
 }
+
+.card-header {
+  border-bottom: 0;
+}
