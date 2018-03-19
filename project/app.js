@@ -9,9 +9,14 @@ const session = require('express-session')
 const passport = require('passport')
 const flash = require('connect-flash')
 
-var index = require('./routes/index')
+var api = require('./routes/api')
 var pages = require('./routes/pages')
 const users = require('./routes/users')
+const hbs = require('hbs')
+
+hbs.registerHelper('ifEquals', function (arg1, arg2, options) {
+  return (arg1 === arg2) ? options.fn(this) : options.inverse(this)
+})
 
 var app = express()
 
@@ -39,7 +44,7 @@ app.use(flash())
 
 require('./bin/passport')(passport)
 
-app.use('/api', index)
+app.use('/api', api)
 app.use('/', pages)
 app.use('/', users)
 

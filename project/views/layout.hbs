@@ -21,13 +21,14 @@
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
       crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/js/standalone/selectize.min.js"></script>
   </head>
   
   <body>
-    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="/">HELL</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -38,14 +39,17 @@
      {{#if hideNav}}<div class="d-none">{{/if}}
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item {{#ifEquals page 'home'}}active{{/ifEquals}}">
             <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Messages (0)</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My Applications</a>
+          <li class="nav-item {{#ifEquals page 'create-application'}}active{{/ifEquals}}">
+            <a class="nav-link" href="/create-application">Create Application</a>
+          </li>
+          <li class="nav-item {{#ifEquals page 'view-applications'}}active{{/ifEquals}}">
+            <a class="nav-link" href="/view-applications">My Applications</a>
           </li>
         </ul>
         <span class="dropdown nav-item">
@@ -63,7 +67,11 @@
      </div>
       
     </nav>
-    
+    {{#if alert}}
+      <div class="text-center alert alert-{{alert.type}}" role="alert">
+        {{alert.message}}
+      </div>
+    {{/if}}
     <div class="container">
        {{{body}}}
     </div>

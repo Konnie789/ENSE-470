@@ -31,8 +31,24 @@ $(document).ready(function () {
 
   // Bind onClick events
   $('#submit').on('click', function () {
-    console.log(select[0].value)
-    submit()
+    // Clear errors
+    $('#reason').removeClass('is-invalid')
+    $('#reasonError').hide()
+    $('#softwareError').hide()
+
+    if (select[0].value === '') {
+      $('#softwareError').show()
+      return
+    }
+
+    if ($('#reason').val() === '') {
+      $('#reason').addClass('is-invalid')
+      $('#reasonError').show()
+    }
+
+    // var softwareId = select[0].value
+    // var reason = $('#reason').val()
+    // submit(softwareId, reason)
   })
 
   $('#clear').on('click', function () {
@@ -51,8 +67,4 @@ function loadSoftware (callback) {
 function clear () {
   select[0].selectize.clear()
   $('#reason').val('')
-}
-
-function submit () {
-  // TODO: Submit application
 }
