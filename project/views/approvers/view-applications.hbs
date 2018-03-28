@@ -12,9 +12,10 @@
       <thead>
         <tr>
           <th scope="col">#</th>
+          <th scope="col">User</th>
           <th scope="col">Software</th>
-          <th scope="col">Approver</th>
           <th scope="col">Status</th>
+          <th scope="col">Submitted At</th>
         </tr>
       </thead>
       <tbody id="software_table_body">
@@ -35,9 +36,10 @@
       <thead>
         <tr>
           <th scope="col">#</th>
+          <th scope="col">User</th>
           <th scope="col">Software</th>
-          <th scope="col">Approver</th>
           <th scope="col">Status</th>
+          <th scope="col">Submitted At</th>
         </tr>
       </thead>
       <tbody id="past_software_table_body">
@@ -68,21 +70,25 @@
         <br/>
         <br/>
         Status: <span id="modal_status"></span>
+	
       </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <form id="deleteApplication" method="post" action="/api/applications/delete">
-          <input hidden type="number" name="applicationId" id="delete_applicationId"/>
-          <button id="submit" class="btn btn-link text-danger">Delete</button>
+        <form id="rejectApplication" method="post" action="/api/applications/approver/reject">
+          <input hidden type="number" name="applicationId" id="reject_applicationId"/>
+          <button id="submit" class="btn btn-link text-danger">Reject</button>
         </form>
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        <form id="approveApplication" method="post" action="/api/applications/approve">
+          <input hidden type="number" name="applicationId" id="approve_applicationId" />
+		      <button id="submit" class="btn btn-primary">Approve</button>
+        </form>
       </div>
     </div>
   </div>
 </div>
 
-<script src="/js/users/view-applications.js"></script>
+<script src="/js/approvers/view-applications.js"></script>
 
 <style>
   #loading-spinner {
