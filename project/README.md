@@ -5,10 +5,16 @@
 
 ## Table of Contents
 
-- [Requirements](#requirements)
+- [Test Accounts](#test accounts)
 - [Installation](#installation)
 - [Run](#run)
 - [Contributing](#contributing)
+
+## Test Accounts
+
+User: user@test.com : test
+Approvers: {firstName}{lastName_firstLetter}@hell.com : test
+Analyst: analyst@test.com
 
 ## Installation
 
