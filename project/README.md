@@ -5,7 +5,7 @@
 
 ## Table of Contents
 
-- [Test Accounts](#test_accounts)
+- [Test Accounts](#test-accounts)
 - [Installation](#installation)
 - [Run](#run)
 - [Contributing](#contributing)
